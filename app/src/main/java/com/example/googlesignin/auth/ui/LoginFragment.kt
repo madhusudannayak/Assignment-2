@@ -101,7 +101,6 @@ class LoginFragment : Fragment() {
             val exception = account1.exception
             if (account1.isSuccessful) {
                 try {
-                    // Google Sign In was successful, authenticate with Firebase
                     val account = account1.getResult(ApiException::class.java)!!
                     Toast.makeText(
                         requireContext(),
@@ -110,9 +109,8 @@ class LoginFragment : Fragment() {
                     ).show()
 
                     Log.d("SignInActivity", "firebaseAuthWithGoogle:" + account.id)
-                    //  firebaseAuthWithGoogle(account.idToken!!)
                 } catch (e: ApiException) {
-                    // Google Sign In failed, update UI appropriately
+
                     Log.w("SignInActivity", "Google sign in failed", e)
                 }
             } else {

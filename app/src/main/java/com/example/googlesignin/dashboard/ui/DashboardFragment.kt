@@ -20,7 +20,7 @@ class DashboardFragment : Fragment() {
         // Inflate the layout for this fragment
         binding = DataBindingUtil.inflate(
             inflater,
-            R.layout.fragment_login, container, false
+            R.layout.fragment_dashboard, container, false
         )
         return binding.root
     }

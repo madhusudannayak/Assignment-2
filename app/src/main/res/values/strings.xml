@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Google sign in</string>
+    <string name="webclient_id">858681885491-tfti9628mgls6egn8djhtfps43oofgor.apps.googleusercontent.com</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

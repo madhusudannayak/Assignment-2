@@ -2,7 +2,7 @@ package com.example.googlesignin.di
 
 import android.content.Context
 import com.example.googlesignin.R
-import com.example.googlesignin.common.viewmodel.SplashscreenViewModel
+import com.example.googlesignin.splashscreen.viewmodel.SplashscreenViewModel
 import com.example.googlesignin.auth.viewModel.LoginViewModel
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions

@@ -10,8 +10,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.GoogleSignIn">
-        <activity android:name="com.example.googlesignin.common.activity.HomeActivity"></activity>
-        <activity android:name="com.example.googlesignin.common.activity.Splashscreen">
+        <activity android:name="com.example.googlesignin.common.view.HomeActivity"></activity>
+        <activity android:name="com.example.googlesignin.splashscreen.view.Splashscreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

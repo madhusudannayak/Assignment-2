@@ -1,10 +1,10 @@
-package com.example.googlesignin.common.activity
+package com.example.googlesignin.splashscreen.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import com.example.googlesignin.R
-import com.example.googlesignin.common.viewmodel.SplashscreenViewModel
+import com.example.googlesignin.splashscreen.viewmodel.SplashscreenViewModel
 import com.example.googlesignin.databinding.ActivitySplashscreenBinding
 import org.koin.androidx.viewmodel.ext.android.viewModel
 

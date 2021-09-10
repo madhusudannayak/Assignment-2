@@ -1,4 +1,4 @@
-package com.example.googlesignin.activity
+package com.example.googlesignin.common.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

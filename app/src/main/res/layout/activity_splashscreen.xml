@@ -7,13 +7,13 @@
 
         <variable
             name="splashviewModel"
-            type="com.example.googlesignin.SplashscreenViewModel" />
+            type="com.example.googlesignin.common.viewmodel.SplashscreenViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        tools:context=".activity.Splashscreen">
+        tools:context=".common.activity.Splashscreen">
 
         <ImageView
             android:id="@+id/imageView"

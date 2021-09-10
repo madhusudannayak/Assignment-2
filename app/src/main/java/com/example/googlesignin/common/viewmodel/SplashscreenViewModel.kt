@@ -1,11 +1,11 @@
-package com.example.googlesignin
+package com.example.googlesignin.common.viewmodel
 
 import android.content.Context
 import android.content.Intent
 import android.os.Handler
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import com.example.googlesignin.activity.HomeActivity
+import com.example.googlesignin.common.activity.HomeActivity
 
 class SplashscreenViewModel : ViewModel() {
 
